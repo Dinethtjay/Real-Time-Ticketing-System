@@ -1,0 +1,139 @@
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Configuration config = null;
+        TicketPool ticketPool = null;
+        File configFile = new File("config.txt");
+
+        System.out.println("Do you want to load the previous configuration? (yes/no): ");
+        String choice = scanner.nextLine().toLowerCase();
+
+        if (choice.equals("yes")) {
+            config = Configuration.loadFromFile("config.txt");
+        }
+        if (config==null){
+            config = new Configuration();
+            config.setMaxTicketCapacity(getInput(scanner, "Enter max ticket capacity: "));
+            while (true) {
+                config.setTotalTickets(getInput(scanner, "Enter total tickets: "));
+                if (config.getTotalTickets() <= config.getMaxTicketCapacity()) {
+                    break;
+                } else {
+                    System.out.println("Max ticket capacity exceeded. Please enter a value less than or equal to max ticket capacity.");
+                }
+            }
+            config.setTicketReleaseRate(getInput(scanner, "Enter ticket release rate: "));
+            config.setCustomerRetrievalRate(getInput(scanner, "Enter customer retrieval rate: "));
+            config.saveToFile("config.txt");
+        }
+
+        List<Thread> threads = new ArrayList<>();
+        boolean isRunning = false;
+
+        try {
+            ticketPool = new TicketPool(config.getTotalTickets(), config.getMaxTicketCapacity(), "log.txt");
+
+            int numVendors = getInput(scanner, "Enter the number of vendors: ");
+            int numCustomers = getInput(scanner, "Enter the number of customers: ");
+
+            while (true) {
+                System.out.println("Enter command (start/stop/exit): ");
+                String command = scanner.nextLine().toLowerCase();
+
+                switch (command) {
+                    case "start":
+                        if (!isRunning) {
+                            String startMessage = "Starting ticket handling operations...";
+                            System.out.println(startMessage);
+                            Configuration.logToFile(startMessage);
+                            threads.clear(); // Clear old threads
+
+                            // Create new Vendor threads
+                            for (int i = 0; i < numVendors; i++) {
+                                threads.add(new Thread(new Vendor(ticketPool, config.getTicketReleaseRate()), "Vendor " + (i + 1)));
+                            }
+
+                            // Create new Customer threads
+                            for (int i = 0; i < numCustomers; i++) {
+                                threads.add(new Thread(new Customer(ticketPool, config.getCustomerRetrievalRate()), "Customer " + (i + 1)));
+                            }
+
+                            // Start all threads
+                            threads.forEach(Thread::start);
+                            isRunning = true;
+                        } else {
+                            String alreadyRunningMessage = "Operations are already running.";
+                            System.out.println(alreadyRunningMessage);
+                            Configuration.logToFile(alreadyRunningMessage);
+                        }
+                        break;
+
+                    case "stop":
+                        if (isRunning) {
+                            String stopMessage = "Stopping all operations...";
+                            System.out.println(stopMessage);
+                            Configuration.logToFile(stopMessage);
+                            threads.forEach(Thread::interrupt);
+                            threads.forEach(thread -> {
+                                try {
+                                    thread.join();
+                                } catch (InterruptedException e) {
+                                    Thread.currentThread().interrupt();
+                                }
+                            });
+                            isRunning = false;
+                        } else {
+                            String notRunningMessage = "Operations are not running.";
+                            System.out.println(notRunningMessage);
+                            Configuration.logToFile(notRunningMessage);
+                        }
+                        break;
+
+                    case "exit":
+                        String exitMessage = "Exiting the system...";
+                        System.out.println(exitMessage);
+                        Configuration.logToFile(exitMessage);
+                        if (isRunning) {
+                            threads.forEach(Thread::interrupt);
+                            threads.forEach(thread -> {
+                                try {
+                                    thread.join();
+                                } catch (InterruptedException e) {
+                                    Thread.currentThread().interrupt();
+                                }
+                            });
+                        }
+                        if (ticketPool != null) {
+                            ticketPool.closeLog();
+                        }
+                        System.exit(0);
+
+                    default:
+                        String invalidCommandMessage = "Invalid command. Please enter start, stop, or exit.";
+                        System.out.println(invalidCommandMessage);
+                        Configuration.logToFile(invalidCommandMessage);
+                }
+            }
+
+        } catch (IOException e) {
+            System.err.println("Error initializing the system: " + e.getMessage());
+        }
+    }
+
+    private static int getInput(Scanner scanner, String prompt) {
+        System.out.print(prompt);
+        while (true) {
+            try {
+                return Integer.parseInt(scanner.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid input. Please enter a valid number.");
+            }
+        }
+    }
+}

@@ -1,0 +1,4 @@
+totalTickets=10
+ticketReleaseRate=5
+customerRetrievalRate=8
+maxTicketCapacity=100
