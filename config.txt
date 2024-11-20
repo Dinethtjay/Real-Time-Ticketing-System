@@ -1,4 +1,4 @@
-totalTickets=10
+totalTickets=20
 ticketReleaseRate=5
-customerRetrievalRate=8
+customerRetrievalRate=4
 maxTicketCapacity=100

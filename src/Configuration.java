@@ -10,7 +10,7 @@ public class Configuration {
     private static final String CONFIG_FILE_PATH = "log.txt";
 
     // Array to hold configuration parameters for easier management
-    private String[] configParameters = new String[4];
+//    private String[] configParameters = new String[4];
 
     // Getters and setters for all parameters
     public int getTotalTickets() {
