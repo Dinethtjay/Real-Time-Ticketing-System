@@ -11,26 +11,22 @@ public class Main {
         TicketPool ticketPool = null;
         File configFile = new File("config.txt");
 
-        System.out.println("Do you want to load the previous configuration? (yes/no): ");
-        String choice = scanner.nextLine().toLowerCase();
-
-        if (choice.equals("yes")) {
-            config = Configuration.loadFromFile("config.txt");
-        }
-        if (config==null){
-            config = new Configuration();
-            config.setMaxTicketCapacity(getInput(scanner, "Enter max ticket capacity: "));
-            while (true) {
-                config.setTotalTickets(getInput(scanner, "Enter total tickets: "));
-                if (config.getTotalTickets() <= config.getMaxTicketCapacity()) {
-                    break;
-                } else {
-                    System.out.println("Max ticket capacity exceeded. Please enter a value less than or equal to max ticket capacity.");
+        while (true) {
+            System.out.print("Load previous configuration? (yes/no): ");
+            String loadConfig = scanner.nextLine().trim().toLowerCase();
+            if (loadConfig.equals("yes")) {
+                config = Configuration.loadFromFile(configFile.getName());
+                if (config == null) {
+//                    System.out.println("No previous configuration found. Please configure the system.");
+                    config = createConfiguration(scanner, configFile.getName());
                 }
+                break;
+            } else if (loadConfig.equals("no")) {
+                config = createConfiguration(scanner, configFile.getName());
+                break;
+            } else {
+                System.out.println("Invalid command. Please enter 'yes' or 'no'.");
             }
-            config.setTicketReleaseRate(getInput(scanner, "Enter ticket release rate: "));
-            config.setCustomerRetrievalRate(getInput(scanner, "Enter customer retrieval rate: "));
-            config.saveToFile("config.txt");
         }
 
         List<Thread> threads = new ArrayList<>();
@@ -124,6 +120,23 @@ public class Main {
         } catch (IOException e) {
             System.err.println("Error initializing the system: " + e.getMessage());
         }
+    }
+
+    private static Configuration createConfiguration(Scanner scanner, String configFileName) {
+        Configuration config = new Configuration();
+        config.setMaxTicketCapacity(getInput(scanner, "Enter max ticket capacity: "));
+        while (true) {
+            config.setTotalTickets(getInput(scanner, "Enter total tickets: "));
+            if (config.getTotalTickets() <= config.getMaxTicketCapacity()) {
+                break;
+            } else {
+                System.out.println("Max ticket capacity exceeded. Please enter a value less than or equal to max ticket capacity.");
+            }
+        }
+        config.setTicketReleaseRate(getInput(scanner, "Enter ticket release rate: "));
+        config.setCustomerRetrievalRate(getInput(scanner, "Enter customer retrieval rate: "));
+        config.saveToFile(configFileName);
+        return config;
     }
 
     private static int getInput(Scanner scanner, String prompt) {
