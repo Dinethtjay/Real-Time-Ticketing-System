@@ -83,7 +83,6 @@ public class TicketPool {
     }
 
 
-
     public int getTicketCount() {
         synchronized (tickets) {
             return tickets.size();
