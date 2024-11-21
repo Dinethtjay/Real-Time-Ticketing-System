@@ -22,5 +22,4 @@ class Customer implements Runnable {
         }
     }
 
-
 }
