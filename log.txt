@@ -255,3 +255,590 @@ Initialized with 20 tickets. Max Capacity: 100
 1732124766967 - Customer 5 purchased a ticket. Current ticket count in the pool: 77
 1732124771980 - Stopping all operations...
 1732124777401 - Exiting the system...
+1732213551891 - Configuration saved to file: config.txt
+Initialized with 10 tickets. Max Capacity: 20
+1732213556892 - Starting ticket handling operations...
+1732213556908 - Vendor 1 added 3 tickets. Total ticket count: 13
+1732213556912 - Vendor 2 added 3 tickets. Total ticket count: 12
+1732213556933 - Customer 2 purchased a ticket. Current ticket count in the pool: 9
+1732213556933 - Customer 3 purchased a ticket. Current ticket count in the pool: 10
+1732213556935 - Customer 4 purchased a ticket. Current ticket count in the pool: 11
+1732213556935 - Customer 5 purchased a ticket. Current ticket count in the pool: 12
+1732213564911 - Vendor 1 added 3 tickets. Total ticket count: 10
+1732213564912 - Customer 1 purchased a ticket. Current ticket count in the pool: 11
+1732213564912 - Customer 5 purchased a ticket. Current ticket count in the pool: 7
+1732213564914 - Customer 4 purchased a ticket. Current ticket count in the pool: 8
+1732213564914 - Customer 3 purchased a ticket. Current ticket count in the pool: 9
+1732213564915 - Customer 2 purchased a ticket. Current ticket count in the pool: 10
+1732213564916 - Vendor 2 added 3 tickets. Total ticket count: 8
+1732213564916 - Customer 1 purchased a ticket. Current ticket count in the pool: 9
+1732213564917 - Customer 2 purchased a ticket. Current ticket count in the pool: 5
+1732213564918 - Customer 3 purchased a ticket. Current ticket count in the pool: 6
+1732213564918 - Customer 4 purchased a ticket. Current ticket count in the pool: 7
+1732213564920 - Customer 5 purchased a ticket. Current ticket count in the pool: 8
+1732213572926 - Vendor 2 added 3 tickets. Total ticket count: 6
+1732213572926 - Customer 1 purchased a ticket. Current ticket count in the pool: 7
+1732213572928 - Vendor 1 added 3 tickets. Total ticket count: 8
+1732213572928 - Customer 5 purchased a ticket. Current ticket count in the pool: 3
+1732213572929 - Customer 4 purchased a ticket. Current ticket count in the pool: 4
+1732213572929 - Customer 3 purchased a ticket. Current ticket count in the pool: 5
+1732213572930 - Customer 2 purchased a ticket. Current ticket count in the pool: 6
+1732213572931 - Customer 1 purchased a ticket. Current ticket count in the pool: 5
+1732213580928 - Vendor 2 added 3 tickets. Total ticket count: 6
+1732213580928 - Customer 5 purchased a ticket. Current ticket count in the pool: 7
+1732213580929 - Customer 1 purchased a ticket. Current ticket count in the pool: 3
+1732213580929 - Customer 2 purchased a ticket. Current ticket count in the pool: 4
+1732213580930 - Customer 3 purchased a ticket. Current ticket count in the pool: 5
+1732213580931 - Customer 4 purchased a ticket. Current ticket count in the pool: 6
+1732213580943 - Vendor 1 added 3 tickets. Total ticket count: 9
+1732213588943 - Vendor 2 added 3 tickets. Total ticket count: 12
+1732213588960 - Vendor 1 added 3 tickets. Total ticket count: 10
+1732213588961 - Customer 1 purchased a ticket. Current ticket count in the pool: 11
+1732213588962 - Customer 4 purchased a ticket. Current ticket count in the pool: 7
+1732213588963 - Customer 2 purchased a ticket. Current ticket count in the pool: 8
+1732213588964 - Customer 5 purchased a ticket. Current ticket count in the pool: 9
+1732213588965 - Customer 3 purchased a ticket. Current ticket count in the pool: 10
+1732213596946 - Vendor 2 added 3 tickets. Total ticket count: 8
+1732213596946 - Customer 1 purchased a ticket. Current ticket count in the pool: 9
+1732213596946 - Customer 3 purchased a ticket. Current ticket count in the pool: 5
+1732213596946 - Customer 5 purchased a ticket. Current ticket count in the pool: 6
+1732213596948 - Customer 2 purchased a ticket. Current ticket count in the pool: 7
+1732213596948 - Customer 4 purchased a ticket. Current ticket count in the pool: 8
+1732213596960 - Vendor 1 added 3 tickets. Total ticket count: 6
+1732213596961 - Customer 1 purchased a ticket. Current ticket count in the pool: 7
+1732213596961 - Customer 4 purchased a ticket. Current ticket count in the pool: 3
+1732213596961 - Customer 2 purchased a ticket. Current ticket count in the pool: 4
+1732213596962 - Customer 5 purchased a ticket. Current ticket count in the pool: 5
+1732213596962 - Customer 3 purchased a ticket. Current ticket count in the pool: 6
+1732213604961 - Vendor 2 added 3 tickets. Total ticket count: 4
+1732213604962 - Customer 1 purchased a ticket. Current ticket count in the pool: 5
+1732213604963 - Customer 3 purchased a ticket. Current ticket count in the pool: 1
+1732213604964 - Customer 5 purchased a ticket. Current ticket count in the pool: 2
+1732213604965 - Customer 2 purchased a ticket. Current ticket count in the pool: 3
+1732213604966 - Customer 4 purchased a ticket. Current ticket count in the pool: 4
+1732213604968 - Vendor 1 added 3 tickets. Total ticket count: 3
+1732213604969 - Customer 1 purchased a ticket. Current ticket count in the pool: 3
+1732213604970 - Customer 2 purchased a ticket. Current ticket count in the pool: 0
+1732213604970 - Customer 5 purchased a ticket. Current ticket count in the pool: 1
+1732213604970 - Customer 3 purchased a ticket. Current ticket count in the pool: 2
+1732213612963 - Vendor 2 added 3 tickets. Total ticket count: 6
+1732213612988 - Customer 5: Waiting to buy tickets...
+1732213612989 - Vendor 1 added 3 tickets. Total ticket count: 7
+1732213612990 - Customer 1 purchased a ticket. Current ticket count in the pool: 4
+1732213612991 - Customer 3 purchased a ticket. Current ticket count in the pool: 5
+1732213707880 - Configuration loaded successfully from file: config.txt
+Initialized with 10 tickets. Max Capacity: 20
+1732213715422 - Starting ticket handling operations...
+1732213715440 - Vendor 1 added 3 tickets. Total ticket count: 13
+1732213715443 - Customer 5 purchased a ticket. Current ticket count in the pool: 12
+1732213715443 - Customer 5 purchased a ticket. Current ticket count in the pool: 11
+1732213715444 - Customer 5 purchased a ticket. Current ticket count in the pool: 10
+1732213715444 - Customer 5 purchased a ticket. Current ticket count in the pool: 9
+1732213715444 - Customer 5 purchased a ticket. Current ticket count in the pool: 8
+1732213715444 - Customer 4 purchased a ticket. Current ticket count in the pool: 7
+1732213715444 - Customer 4 purchased a ticket. Current ticket count in the pool: 6
+1732213715444 - Customer 4 purchased a ticket. Current ticket count in the pool: 5
+1732213715445 - Customer 4 purchased a ticket. Current ticket count in the pool: 4
+1732213715445 - Customer 4 purchased a ticket. Current ticket count in the pool: 3
+1732213715445 - Customer 3: Waiting to buy tickets...
+1732213715446 - Vendor 2 added 3 tickets. Total ticket count: 6
+1732213715446 - Customer 1 purchased a ticket. Current ticket count in the pool: 5
+1732213715446 - Customer 1 purchased a ticket. Current ticket count in the pool: 4
+1732213715446 - Customer 1 purchased a ticket. Current ticket count in the pool: 3
+1732213715446 - Customer 1 purchased a ticket. Current ticket count in the pool: 2
+1732213715447 - Customer 1 purchased a ticket. Current ticket count in the pool: 1
+1732213715447 - Customer 2: Waiting to buy tickets...
+1732213715447 - Customer 3: Waiting to buy tickets...
+1732213723441 - Vendor 1 added 3 tickets. Total ticket count: 4
+1732213723442 - Customer 2: Waiting to buy tickets...
+1732213723442 - Customer 3: Waiting to buy tickets...
+1732213723446 - Customer 4: Waiting to buy tickets...
+1732213723447 - Customer 5: Waiting to buy tickets...
+1732213723447 - Vendor 2 added 3 tickets. Total ticket count: 7
+1732213723447 - Customer 2 purchased a ticket. Current ticket count in the pool: 6
+1732213723448 - Customer 2 purchased a ticket. Current ticket count in the pool: 5
+1732213723449 - Customer 2 purchased a ticket. Current ticket count in the pool: 4
+1732213723449 - Customer 2 purchased a ticket. Current ticket count in the pool: 3
+1732213723450 - Customer 2 purchased a ticket. Current ticket count in the pool: 2
+1732213723450 - Customer 1: Waiting to buy tickets...
+1732213723451 - Customer 5: Waiting to buy tickets...
+1732213723451 - Customer 4: Waiting to buy tickets...
+1732213723452 - Customer 3: Waiting to buy tickets...
+1732213731453 - Vendor 1 added 3 tickets. Total ticket count: 5
+1732213731454 - Customer 1 purchased a ticket. Current ticket count in the pool: 4
+1732213731454 - Customer 1 purchased a ticket. Current ticket count in the pool: 3
+1732213731455 - Customer 1 purchased a ticket. Current ticket count in the pool: 2
+1732213731455 - Customer 1 purchased a ticket. Current ticket count in the pool: 1
+1732213731455 - Customer 1 purchased a ticket. Current ticket count in the pool: 0
+1732213731456 - Customer 3: Waiting to buy tickets...
+1732213731456 - Customer 4: Waiting to buy tickets...
+1732213731457 - Customer 5: Waiting to buy tickets...
+1732213731457 - Customer 2: Waiting to buy tickets...
+1732213731457 - Vendor 2 added 3 tickets. Total ticket count: 3
+1732213731459 - Customer 3: Waiting to buy tickets...
+1732213731459 - Customer 2: Waiting to buy tickets...
+1732213731460 - Customer 5: Waiting to buy tickets...
+1732213731462 - Customer 4: Waiting to buy tickets...
+1732213862817 - Configuration loaded successfully from file: config.txt
+Initialized with 10 tickets. Max Capacity: 20
+1732213871905 - Starting ticket handling operations...
+1732213871920 - Vendor 1 added 3 tickets. Total ticket count: 13
+1732213871924 - Customer 5 purchased a ticket. Current ticket count in the pool: 12
+1732213871925 - Customer 5 purchased a ticket. Current ticket count in the pool: 11
+1732213871925 - Customer 5 purchased a ticket. Current ticket count in the pool: 10
+1732213871925 - Customer 5 purchased a ticket. Current ticket count in the pool: 9
+1732213871926 - Customer 5 purchased a ticket. Current ticket count in the pool: 8
+1732213871926 - Customer 1 purchased a ticket. Current ticket count in the pool: 7
+1732213871926 - Customer 1 purchased a ticket. Current ticket count in the pool: 6
+1732213871926 - Customer 1 purchased a ticket. Current ticket count in the pool: 5
+1732213871926 - Customer 1 purchased a ticket. Current ticket count in the pool: 4
+1732213871927 - Customer 1 purchased a ticket. Current ticket count in the pool: 3
+1732213871927 - Customer 3 purchased a ticket. Current ticket count in the pool: 2
+1732213871927 - Customer 3 purchased a ticket. Current ticket count in the pool: 1
+1732213871927 - Customer 3 purchased a ticket. Current ticket count in the pool: 0
+1732213871931 - Vendor 2 added 3 tickets. Total ticket count: 3
+1732213871931 - Customer 2 purchased a ticket. Current ticket count in the pool: 2
+1732213871931 - Customer 2 purchased a ticket. Current ticket count in the pool: 1
+1732213871931 - Customer 2 purchased a ticket. Current ticket count in the pool: 0
+1732213871932 - Customer 4: Waiting to buy tickets...
+1732213879922 - Vendor 1 added 3 tickets. Total ticket count: 3
+1732213879922 - Customer 4 purchased a ticket. Current ticket count in the pool: 2
+1732213879923 - Customer 4 purchased a ticket. Current ticket count in the pool: 1
+1732213879923 - Customer 4 purchased a ticket. Current ticket count in the pool: 0
+1732213879927 - Customer 1: Waiting to buy tickets...
+1732213879928 - Customer 5: Waiting to buy tickets...
+1732213879932 - Vendor 2 added 3 tickets. Total ticket count: 3
+1732213879932 - Customer 1 purchased a ticket. Current ticket count in the pool: 2
+1732213879932 - Customer 1 purchased a ticket. Current ticket count in the pool: 1
+1732213879932 - Customer 1 purchased a ticket. Current ticket count in the pool: 0
+1732213879932 - Customer 5: Waiting to buy tickets...
+1732213887931 - Vendor 1 added 3 tickets. Total ticket count: 3
+1732213887931 - Customer 5 purchased a ticket. Current ticket count in the pool: 2
+1732213887932 - Customer 5 purchased a ticket. Current ticket count in the pool: 1
+1732213887932 - Customer 5 purchased a ticket. Current ticket count in the pool: 0
+1732213887947 - Vendor 2 added 3 tickets. Total ticket count: 3
+1732213895935 - Vendor 1 added 3 tickets. Total ticket count: 6
+1732213895951 - Vendor 2 added 3 tickets. Total ticket count: 9
+1732213903943 - Vendor 1 added 3 tickets. Total ticket count: 12
+1732213903959 - Vendor 2 added 3 tickets. Total ticket count: 15
+1732213911955 - Vendor 1 added 3 tickets. Total ticket count: 18
+1732213911971 - Vendor 2: Total tickets reached max capacity. Vendor waiting to add more tickets.
+1732213919964 - Vendor 1: Total tickets reached max capacity. Vendor waiting to add more tickets.
+1732214053718 - Configuration loaded successfully from file: config.txt
+Initialized with 10 tickets. Max Capacity: 20
+1732214059612 - Starting ticket handling operations...
+1732214059674 - Vendor 1 added 3 tickets. Total ticket count: 13
+1732214059676 - Vendor 2 added 3 tickets. Total ticket count: 11
+1732214059676 - Customer 5 purchased a ticket. Current ticket count in the pool: 12
+1732214059677 - Customer 1 purchased a ticket. Current ticket count in the pool: 8
+1732214059677 - Customer 2 purchased a ticket. Current ticket count in the pool: 9
+1732214059677 - Customer 3 purchased a ticket. Current ticket count in the pool: 10
+1732214059677 - Customer 4 purchased a ticket. Current ticket count in the pool: 11
+1732214067676 - Vendor 1 added 3 tickets. Total ticket count: 9
+1732214067676 - Customer 5 purchased a ticket. Current ticket count in the pool: 10
+1732214067678 - Customer 4 purchased a ticket. Current ticket count in the pool: 6
+1732214067679 - Customer 3 purchased a ticket. Current ticket count in the pool: 7
+1732214067680 - Customer 2 purchased a ticket. Current ticket count in the pool: 8
+1732214067681 - Vendor 2 added 3 tickets. Total ticket count: 8
+1732214067682 - Customer 1 purchased a ticket. Current ticket count in the pool: 9
+1732214067683 - Customer 2 purchased a ticket. Current ticket count in the pool: 5
+1732214067684 - Customer 3 purchased a ticket. Current ticket count in the pool: 6
+1732214067685 - Customer 4 purchased a ticket. Current ticket count in the pool: 7
+1732214067686 - Customer 5 purchased a ticket. Current ticket count in the pool: 8
+1732214075678 - Vendor 1 added 3 tickets. Total ticket count: 6
+1732214075679 - Customer 1 purchased a ticket. Current ticket count in the pool: 7
+1732214075680 - Customer 5 purchased a ticket. Current ticket count in the pool: 3
+1732214075681 - Customer 4 purchased a ticket. Current ticket count in the pool: 4
+1732214075681 - Customer 3 purchased a ticket. Current ticket count in the pool: 5
+1732214075682 - Customer 2 purchased a ticket. Current ticket count in the pool: 6
+1732214075694 - Vendor 2 added 3 tickets. Total ticket count: 4
+1732214075695 - Customer 1 purchased a ticket. Current ticket count in the pool: 5
+1732214075696 - Customer 2 purchased a ticket. Current ticket count in the pool: 1
+1732214075696 - Customer 3 purchased a ticket. Current ticket count in the pool: 2
+1732214075697 - Customer 4 purchased a ticket. Current ticket count in the pool: 3
+1732214075698 - Customer 5 purchased a ticket. Current ticket count in the pool: 4
+1732214075699 - Customer 1 purchased a ticket. Current ticket count in the pool: 3
+1732214083694 - Vendor 1 added 3 tickets. Total ticket count: 6
+1732214083710 - Vendor 2 added 3 tickets. Total ticket count: 9
+1732214091711 - Vendor 1 added 3 tickets. Total ticket count: 7
+1732214091711 - Customer 5 purchased a ticket. Current ticket count in the pool: 8
+1732214091712 - Vendor 2 added 3 tickets. Total ticket count: 9
+1732214091713 - Customer 4 purchased a ticket. Current ticket count in the pool: 4
+1732214091713 - Customer 3 purchased a ticket. Current ticket count in the pool: 5
+1732214091715 - Customer 1 purchased a ticket. Current ticket count in the pool: 6
+1732214091716 - Customer 2 purchased a ticket. Current ticket count in the pool: 7
+1732214091716 - Customer 5 purchased a ticket. Current ticket count in the pool: 6
+1732214099711 - Vendor 1 added 3 tickets. Total ticket count: 7
+1732214099712 - Customer 4 purchased a ticket. Current ticket count in the pool: 8
+1732214099713 - Customer 5 purchased a ticket. Current ticket count in the pool: 4
+1732214099714 - Customer 2 purchased a ticket. Current ticket count in the pool: 5
+1732214099715 - Customer 1 purchased a ticket. Current ticket count in the pool: 6
+1732214099715 - Customer 3 purchased a ticket. Current ticket count in the pool: 7
+1732214099718 - Vendor 2 added 3 tickets. Total ticket count: 5
+1732214099719 - Customer 4 purchased a ticket. Current ticket count in the pool: 6
+1732214099720 - Customer 3 purchased a ticket. Current ticket count in the pool: 2
+1732214099721 - Customer 1 purchased a ticket. Current ticket count in the pool: 3
+1732214099721 - Customer 2 purchased a ticket. Current ticket count in the pool: 4
+1732214099721 - Customer 5 purchased a ticket. Current ticket count in the pool: 5
+1732214107729 - Vendor 2 added 3 tickets. Total ticket count: 3
+1732214107730 - Customer 4 purchased a ticket. Current ticket count in the pool: 4
+1732214107731 - Customer 5 purchased a ticket. Current ticket count in the pool: 0
+1732214107732 - Customer 2 purchased a ticket. Current ticket count in the pool: 1
+1732214107734 - Customer 1 purchased a ticket. Current ticket count in the pool: 2
+1732214107735 - Customer 3 purchased a ticket. Current ticket count in the pool: 3
+1732214107740 - Vendor 1 added 3 tickets. Total ticket count: 3
+1732214107741 - Customer 2 purchased a ticket. Current ticket count in the pool: 1
+1732214107742 - Customer 1 purchased a ticket. Current ticket count in the pool: 0
+1732214107743 - Customer 4 purchased a ticket. Current ticket count in the pool: 2
+1732214115730 - Vendor 2 added 3 tickets. Total ticket count: 6
+1732214115753 - Vendor 1 added 3 tickets. Total ticket count: 8
+1732214115754 - Customer 5 purchased a ticket. Current ticket count in the pool: 5
+1732214694986 - Configuration loaded successfully from file: config.txt
+Initialized with 10 tickets. Max Capacity: 20
+1732214706125 - Starting ticket handling operations...
+1732214706140 - Vendor 1 added 3 tickets. Total ticket count: 13
+1732214706143 - Customer 5 purchased a ticket. Current ticket count in the pool: 12
+1732214706143 - Customer 5 purchased a ticket. Current ticket count in the pool: 11
+1732214706145 - Customer 5 purchased a ticket. Current ticket count in the pool: 10
+1732214706145 - Customer 5 purchased a ticket. Current ticket count in the pool: 9
+1732214706145 - Customer 5 purchased a ticket. Current ticket count in the pool: 8
+1732214706146 - Customer 4 purchased a ticket. Current ticket count in the pool: 7
+1732214706146 - Customer 4 purchased a ticket. Current ticket count in the pool: 6
+1732214706146 - Customer 4 purchased a ticket. Current ticket count in the pool: 5
+1732214706146 - Customer 4 purchased a ticket. Current ticket count in the pool: 4
+1732214706146 - Customer 4 purchased a ticket. Current ticket count in the pool: 3
+1732214706146 - Customer 2 purchased a ticket. Current ticket count in the pool: 2
+1732214706147 - Customer 2 purchased a ticket. Current ticket count in the pool: 1
+1732214706147 - Customer 2 purchased a ticket. Current ticket count in the pool: 0
+1732214706147 - Customer 3: Waiting to buy tickets...
+1732214706149 - Customer 1: Waiting to buy tickets...
+1732214706149 - Vendor 2 added 3 tickets. Total ticket count: 3
+1732214706149 - Customer 3 purchased a ticket. Current ticket count in the pool: 2
+1732214706149 - Customer 3 purchased a ticket. Current ticket count in the pool: 1
+1732214706149 - Customer 3 purchased a ticket. Current ticket count in the pool: 0
+1732214706149 - Customer 1: Waiting to buy tickets...
+1732214714141 - Vendor 1 added 3 tickets. Total ticket count: 3
+1732214714141 - Customer 1 purchased a ticket. Current ticket count in the pool: 2
+1732214714142 - Customer 1 purchased a ticket. Current ticket count in the pool: 1
+1732214714142 - Customer 1 purchased a ticket. Current ticket count in the pool: 0
+1732214714155 - Customer 3: Waiting to buy tickets...
+1732214714155 - Vendor 2 added 3 tickets. Total ticket count: 3
+1732214714155 - Customer 5 purchased a ticket. Current ticket count in the pool: 2
+1732214714156 - Customer 5 purchased a ticket. Current ticket count in the pool: 1
+1732214714156 - Customer 5 purchased a ticket. Current ticket count in the pool: 0
+1732214714156 - Customer 4: Waiting to buy tickets...
+1732214714156 - Customer 2: Waiting to buy tickets...
+1732214714157 - Customer 3: Waiting to buy tickets...
+1732214722146 - Vendor 1 added 3 tickets. Total ticket count: 3
+1732214722147 - Customer 4 purchased a ticket. Current ticket count in the pool: 2
+1732214722147 - Customer 4 purchased a ticket. Current ticket count in the pool: 1
+1732214722148 - Customer 4 purchased a ticket. Current ticket count in the pool: 0
+1732214722148 - Customer 3: Waiting to buy tickets...
+1732214722148 - Customer 2: Waiting to buy tickets...
+1732214722148 - Customer 1: Waiting to buy tickets...
+1732214722156 - Vendor 2 added 3 tickets. Total ticket count: 3
+1732214722156 - Customer 3 purchased a ticket. Current ticket count in the pool: 2
+1732214722156 - Customer 3 purchased a ticket. Current ticket count in the pool: 1
+1732214722157 - Customer 3 purchased a ticket. Current ticket count in the pool: 0
+1732214722157 - Customer 1: Waiting to buy tickets...
+1732214722157 - Customer 2: Waiting to buy tickets...
+1732214722162 - Customer 5: Waiting to buy tickets...
+1732214730147 - Vendor 1 added 3 tickets. Total ticket count: 3
+1732214730148 - Customer 1 purchased a ticket. Current ticket count in the pool: 2
+1732214730148 - Customer 1 purchased a ticket. Current ticket count in the pool: 1
+1732214730149 - Customer 1 purchased a ticket. Current ticket count in the pool: 0
+1732214730149 - Customer 4: Waiting to buy tickets...
+1732214730149 - Customer 5: Waiting to buy tickets...
+1732214730149 - Customer 2: Waiting to buy tickets...
+1732214730167 - Customer 3: Waiting to buy tickets...
+1732214730168 - Vendor 2 added 3 tickets. Total ticket count: 3
+1732214730169 - Customer 4 purchased a ticket. Current ticket count in the pool: 2
+1732214730169 - Customer 4 purchased a ticket. Current ticket count in the pool: 1
+1732214730170 - Customer 4 purchased a ticket. Current ticket count in the pool: 0
+1732214730170 - Customer 3: Waiting to buy tickets...
+1732214730172 - Customer 2: Waiting to buy tickets...
+1732214730172 - Customer 5: Waiting to buy tickets...
+1732214738162 - Vendor 1 added 3 tickets. Total ticket count: 3
+1732214738164 - Customer 3 purchased a ticket. Current ticket count in the pool: 2
+1732214738164 - Customer 3 purchased a ticket. Current ticket count in the pool: 1
+1732214738164 - Customer 3 purchased a ticket. Current ticket count in the pool: 0
+1732214738165 - Customer 5: Waiting to buy tickets...
+1732214738165 - Customer 2: Waiting to buy tickets...
+1732214738165 - Customer 1: Waiting to buy tickets...
+1732214738178 - Vendor 2 added 3 tickets. Total ticket count: 3
+1732214738179 - Customer 5 purchased a ticket. Current ticket count in the pool: 2
+1732214738179 - Customer 5 purchased a ticket. Current ticket count in the pool: 1
+1732214738180 - Customer 5 purchased a ticket. Current ticket count in the pool: 0
+1732214738180 - Customer 1: Waiting to buy tickets...
+1732214738180 - Customer 2: Waiting to buy tickets...
+1732214738182 - Customer 4: Waiting to buy tickets...
+1732214746165 - Vendor 1 added 3 tickets. Total ticket count: 3
+1732214746167 - Customer 1 purchased a ticket. Current ticket count in the pool: 2
+1732214746167 - Customer 1 purchased a ticket. Current ticket count in the pool: 1
+1732214746167 - Customer 1 purchased a ticket. Current ticket count in the pool: 0
+1732214746167 - Customer 4: Waiting to buy tickets...
+1732214746167 - Customer 2: Waiting to buy tickets...
+1732214746167 - Customer 3: Waiting to buy tickets...
+1732214746180 - Vendor 2 added 3 tickets. Total ticket count: 3
+1732214746180 - Customer 4 purchased a ticket. Current ticket count in the pool: 2
+1732214746181 - Customer 4 purchased a ticket. Current ticket count in the pool: 1
+1732214746181 - Customer 4 purchased a ticket. Current ticket count in the pool: 0
+1732214746181 - Customer 3: Waiting to buy tickets...
+1732214746181 - Customer 2: Waiting to buy tickets...
+1732214746182 - Customer 5: Waiting to buy tickets...
+1732214754168 - Vendor 1 added 3 tickets. Total ticket count: 3
+1732214754169 - Customer 3 purchased a ticket. Current ticket count in the pool: 2
+1732214754170 - Customer 3 purchased a ticket. Current ticket count in the pool: 1
+1732214754170 - Customer 3 purchased a ticket. Current ticket count in the pool: 0
+1732214754171 - Customer 5: Waiting to buy tickets...
+1732214754172 - Customer 2: Waiting to buy tickets...
+1732214754180 - Customer 1: Waiting to buy tickets...
+1732214754182 - Vendor 2 added 3 tickets. Total ticket count: 3
+1732214754182 - Customer 5 purchased a ticket. Current ticket count in the pool: 2
+1732214754184 - Customer 5 purchased a ticket. Current ticket count in the pool: 1
+1732214754184 - Customer 5 purchased a ticket. Current ticket count in the pool: 0
+1732214754185 - Customer 1: Waiting to buy tickets...
+1732214754185 - Customer 2: Waiting to buy tickets...
+1732214754196 - Customer 4: Waiting to buy tickets...
+1732214762170 - Vendor 1 added 3 tickets. Total ticket count: 3
+1732214762171 - Customer 1 purchased a ticket. Current ticket count in the pool: 2
+1732214762171 - Customer 1 purchased a ticket. Current ticket count in the pool: 1
+1732214762172 - Customer 1 purchased a ticket. Current ticket count in the pool: 0
+1732214762172 - Customer 4: Waiting to buy tickets...
+1732214762173 - Customer 2: Waiting to buy tickets...
+1732214762187 - Vendor 2 added 3 tickets. Total ticket count: 3
+1732214762187 - Customer 4 purchased a ticket. Current ticket count in the pool: 2
+1732214762188 - Customer 4 purchased a ticket. Current ticket count in the pool: 1
+1732214762189 - Customer 4 purchased a ticket. Current ticket count in the pool: 0
+1732214762190 - Customer 2: Waiting to buy tickets...
+1732214762191 - Customer 5: Waiting to buy tickets...
+1732214762191 - Customer 3: Waiting to buy tickets...
+1732214770182 - Customer 1: Waiting to buy tickets...
+1732214770183 - Vendor 1 added 3 tickets. Total ticket count: 3
+1732214770184 - Customer 2 purchased a ticket. Current ticket count in the pool: 2
+1732214770184 - Customer 2 purchased a ticket. Current ticket count in the pool: 1
+1732214770185 - Customer 2 purchased a ticket. Current ticket count in the pool: 0
+1732214770185 - Customer 1: Waiting to buy tickets...
+1732214770185 - Customer 3: Waiting to buy tickets...
+1732214770186 - Customer 5: Waiting to buy tickets...
+1732214770188 - Vendor 2 added 3 tickets. Total ticket count: 3
+1732214770188 - Customer 1 purchased a ticket. Current ticket count in the pool: 2
+1732214770190 - Customer 1 purchased a ticket. Current ticket count in the pool: 1
+1732214770190 - Customer 1 purchased a ticket. Current ticket count in the pool: 0
+1732214770191 - Customer 5: Waiting to buy tickets...
+1732214770191 - Customer 3: Waiting to buy tickets...
+1732214770198 - Customer 4: Waiting to buy tickets...
+1732214778192 - Vendor 2 added 3 tickets. Total ticket count: 3
+1732214778193 - Customer 5 purchased a ticket. Current ticket count in the pool: 2
+1732214778193 - Customer 5 purchased a ticket. Current ticket count in the pool: 1
+1732214778193 - Customer 5 purchased a ticket. Current ticket count in the pool: 0
+1732214778193 - Customer 4: Waiting to buy tickets...
+1732214778195 - Customer 3: Waiting to buy tickets...
+1732214778195 - Customer 1: Waiting to buy tickets...
+1732214778196 - Customer 2: Waiting to buy tickets...
+1732214778196 - Vendor 1 added 3 tickets. Total ticket count: 3
+1732214778197 - Customer 4 purchased a ticket. Current ticket count in the pool: 2
+1732214778197 - Customer 4 purchased a ticket. Current ticket count in the pool: 1
+1732214778197 - Customer 4 purchased a ticket. Current ticket count in the pool: 0
+1732214778198 - Customer 2: Waiting to buy tickets...
+1732214778198 - Customer 1: Waiting to buy tickets...
+1732214778198 - Customer 3: Waiting to buy tickets...
+1732214786193 - Vendor 2 added 3 tickets. Total ticket count: 3
+1732214786193 - Customer 2 purchased a ticket. Current ticket count in the pool: 2
+1732214786195 - Customer 2 purchased a ticket. Current ticket count in the pool: 1
+1732214786195 - Customer 2 purchased a ticket. Current ticket count in the pool: 0
+1732214786195 - Customer 3: Waiting to buy tickets...
+1732214786196 - Customer 1: Waiting to buy tickets...
+1732214786197 - Customer 5: Waiting to buy tickets...
+1732214786197 - Vendor 1 added 3 tickets. Total ticket count: 3
+1732214786198 - Customer 3 purchased a ticket. Current ticket count in the pool: 2
+1732214786198 - Customer 3 purchased a ticket. Current ticket count in the pool: 1
+1732214786199 - Customer 3 purchased a ticket. Current ticket count in the pool: 0
+1732214786200 - Customer 5: Waiting to buy tickets...
+1732214786200 - Customer 1: Waiting to buy tickets...
+1732214786212 - Customer 4: Waiting to buy tickets...
+1732214794201 - Vendor 1 added 3 tickets. Total ticket count: 3
+1732214794202 - Customer 5 purchased a ticket. Current ticket count in the pool: 2
+1732214794202 - Customer 5 purchased a ticket. Current ticket count in the pool: 1
+1732214794203 - Customer 5 purchased a ticket. Current ticket count in the pool: 0
+1732214794203 - Customer 4: Waiting to buy tickets...
+1732214794203 - Customer 1: Waiting to buy tickets...
+1732214794204 - Customer 2: Waiting to buy tickets...
+1732214794204 - Customer 3: Waiting to buy tickets...
+1732214794206 - Vendor 2 added 3 tickets. Total ticket count: 3
+1732214794207 - Customer 4 purchased a ticket. Current ticket count in the pool: 2
+1732214794207 - Customer 4 purchased a ticket. Current ticket count in the pool: 1
+1732214794208 - Customer 4 purchased a ticket. Current ticket count in the pool: 0
+1732214794208 - Customer 3: Waiting to buy tickets...
+1732214794209 - Customer 2: Waiting to buy tickets...
+1732214794209 - Customer 1: Waiting to buy tickets...
+1732214802203 - Vendor 1 added 3 tickets. Total ticket count: 3
+1732214802203 - Customer 3 purchased a ticket. Current ticket count in the pool: 2
+1732214802204 - Customer 3 purchased a ticket. Current ticket count in the pool: 1
+1732214802204 - Customer 3 purchased a ticket. Current ticket count in the pool: 0
+1732214802205 - Customer 1: Waiting to buy tickets...
+1732214802205 - Customer 2: Waiting to buy tickets...
+1732214802207 - Customer 5: Waiting to buy tickets...
+1732214802207 - Vendor 2 added 3 tickets. Total ticket count: 3
+1732214802209 - Customer 1 purchased a ticket. Current ticket count in the pool: 2
+1732214802210 - Customer 1 purchased a ticket. Current ticket count in the pool: 1
+1732214802210 - Customer 1 purchased a ticket. Current ticket count in the pool: 0
+1732214802211 - Customer 5: Waiting to buy tickets...
+1732214802211 - Customer 2: Waiting to buy tickets...
+1732214802223 - Customer 4: Waiting to buy tickets...
+1732214900840 - Configuration loaded successfully from file: config.txt
+Initialized with 10 tickets. Max Capacity: 20
+1732214904890 - Starting ticket handling operations...
+1732214904909 - Vendor 1 added 3 tickets. Total ticket count: 13
+1732214904914 - Customer 4 purchased a ticket. Current ticket count in the pool: 12
+1732214904914 - Customer 3 purchased a ticket. Current ticket count in the pool: 11
+1732214904914 - Customer 2 purchased a ticket. Current ticket count in the pool: 10
+1732214904914 - Vendor 2 added 3 tickets. Total ticket count: 13
+1732214904916 - Customer 5 purchased a ticket. Current ticket count in the pool: 12
+1732214904916 - Customer 1 purchased a ticket. Current ticket count in the pool: 11
+1732214912913 - Vendor 1 added 3 tickets. Total ticket count: 14
+1732214912915 - Customer 3 purchased a ticket. Current ticket count in the pool: 13
+1732214912917 - Vendor 2 added 3 tickets. Total ticket count: 16
+1732214912918 - Customer 4 purchased a ticket. Current ticket count in the pool: 15
+1732214912920 - Customer 5 purchased a ticket. Current ticket count in the pool: 14
+1732214912921 - Customer 2 purchased a ticket. Current ticket count in the pool: 13
+1732214912922 - Customer 1 purchased a ticket. Current ticket count in the pool: 12
+1732214920913 - Vendor 1 added 3 tickets. Total ticket count: 15
+1732214920917 - Customer 3 purchased a ticket. Current ticket count in the pool: 14
+1732214920918 - Vendor 2 added 3 tickets. Total ticket count: 17
+1732214920929 - Customer 2 purchased a ticket. Current ticket count in the pool: 16
+1732214920930 - Customer 5 purchased a ticket. Current ticket count in the pool: 15
+1732214920931 - Customer 1 purchased a ticket. Current ticket count in the pool: 14
+1732214920932 - Customer 4 purchased a ticket. Current ticket count in the pool: 13
+1732214928919 - Vendor 2 added 3 tickets. Total ticket count: 16
+1732214928919 - Vendor 1 added 3 tickets. Total ticket count: 19
+1732214928921 - Customer 3 purchased a ticket. Current ticket count in the pool: 18
+1732214928930 - Customer 2 purchased a ticket. Current ticket count in the pool: 17
+1732214928931 - Customer 5 purchased a ticket. Current ticket count in the pool: 16
+1732214928935 - Customer 4 purchased a ticket. Current ticket count in the pool: 15
+1732214928936 - Customer 1 purchased a ticket. Current ticket count in the pool: 14
+1732214936920 - Vendor 2 added 3 tickets. Total ticket count: 17
+1732214936927 - Customer 3 purchased a ticket. Current ticket count in the pool: 16
+1732214936928 - Vendor 1 added 3 tickets. Total ticket count: 19
+1732214936938 - Customer 4 purchased a ticket. Current ticket count in the pool: 18
+1732214936941 - Customer 2 purchased a ticket. Current ticket count in the pool: 17
+1732214936943 - Customer 5 purchased a ticket. Current ticket count in the pool: 16
+1732214936943 - Customer 1 purchased a ticket. Current ticket count in the pool: 15
+1732214944929 - Customer 3 purchased a ticket. Current ticket count in the pool: 14
+1732214944932 - Vendor 2 added 3 tickets. Total ticket count: 17
+1732214944932 - Vendor 1 added 3 tickets. Total ticket count: 20
+1732214944944 - Customer 2 purchased a ticket. Current ticket count in the pool: 19
+1732214944948 - Customer 1 purchased a ticket. Current ticket count in the pool: 18
+1732214944949 - Customer 5 purchased a ticket. Current ticket count in the pool: 17
+1732214944950 - Customer 4 purchased a ticket. Current ticket count in the pool: 16
+1732214952934 - Vendor 2 added 3 tickets. Total ticket count: 19
+1732214952937 - Customer 3 purchased a ticket. Current ticket count in the pool: 18
+1732214952939 - Vendor 1: Total tickets reached max capacity. Vendor waiting to add more tickets.
+1732214952950 - Customer 1 purchased a ticket. Current ticket count in the pool: 17
+1732214952951 - Vendor 1 added 3 tickets. Total ticket count: 20
+1732214952952 - Customer 4 purchased a ticket. Current ticket count in the pool: 19
+1732214952952 - Customer 2 purchased a ticket. Current ticket count in the pool: 18
+1732214952952 - Customer 5 purchased a ticket. Current ticket count in the pool: 17
+1732214960937 - Vendor 2 added 3 tickets. Total ticket count: 20
+1732214960938 - Customer 3 purchased a ticket. Current ticket count in the pool: 19
+1732214960952 - Vendor 1: Total tickets reached max capacity. Vendor waiting to add more tickets.
+1732214960953 - Customer 1 purchased a ticket. Current ticket count in the pool: 18
+1732214960954 - Vendor 1: Total tickets reached max capacity. Vendor waiting to add more tickets.
+1732214960954 - Customer 4 purchased a ticket. Current ticket count in the pool: 17
+1732214960955 - Vendor 1 added 3 tickets. Total ticket count: 20
+1732214960956 - Customer 2 purchased a ticket. Current ticket count in the pool: 19
+1732214960967 - Customer 5 purchased a ticket. Current ticket count in the pool: 18
+1732214968938 - Vendor 2: Total tickets reached max capacity. Vendor waiting to add more tickets.
+1732214968941 - Customer 3 purchased a ticket. Current ticket count in the pool: 17
+1732214968941 - Vendor 2 added 3 tickets. Total ticket count: 20
+1732214968954 - Customer 1 purchased a ticket. Current ticket count in the pool: 19
+1732214968955 - Customer 4 purchased a ticket. Current ticket count in the pool: 18
+1732214968956 - Vendor 1: Total tickets reached max capacity. Vendor waiting to add more tickets.
+1732214968958 - Customer 2 purchased a ticket. Current ticket count in the pool: 17
+1732214968958 - Vendor 1 added 3 tickets. Total ticket count: 20
+1732214968972 - Customer 5 purchased a ticket. Current ticket count in the pool: 19
+1732214998606 - Configuration saved to file: config.txt
+Initialized with 10 tickets. Max Capacity: 20
+1732215008532 - Starting ticket handling operations...
+1732215008547 - Vendor 2 added 2 tickets. Total ticket count: 12
+1732215008550 - Customer 6 purchased a ticket. Current ticket count in the pool: 11
+1732215008550 - Customer 5 purchased a ticket. Current ticket count in the pool: 10
+1732215008551 - Customer 2 purchased a ticket. Current ticket count in the pool: 9
+1732215008551 - Customer 4 purchased a ticket. Current ticket count in the pool: 8
+1732215008551 - Customer 3 purchased a ticket. Current ticket count in the pool: 7
+1732215008551 - Customer 7 purchased a ticket. Current ticket count in the pool: 6
+1732215008552 - Customer 1 purchased a ticket. Current ticket count in the pool: 5
+1732215008552 - Vendor 1 added 2 tickets. Total ticket count: 7
+1732215016550 - Vendor 2 added 2 tickets. Total ticket count: 9
+1732215016554 - Customer 3 purchased a ticket. Current ticket count in the pool: 8
+1732215016556 - Customer 6 purchased a ticket. Current ticket count in the pool: 7
+1732215016557 - Customer 2 purchased a ticket. Current ticket count in the pool: 6
+1732215016558 - Customer 5 purchased a ticket. Current ticket count in the pool: 5
+1732215016559 - Customer 1 purchased a ticket. Current ticket count in the pool: 4
+1732215016560 - Customer 4 purchased a ticket. Current ticket count in the pool: 3
+1732215016561 - Customer 7 purchased a ticket. Current ticket count in the pool: 2
+1732215016563 - Vendor 1 added 2 tickets. Total ticket count: 4
+1732215024556 - Vendor 2 added 2 tickets. Total ticket count: 6
+1732215024558 - Customer 3 purchased a ticket. Current ticket count in the pool: 5
+1732215024559 - Customer 2 purchased a ticket. Current ticket count in the pool: 4
+1732215024560 - Customer 6 purchased a ticket. Current ticket count in the pool: 3
+1732215024561 - Customer 1 purchased a ticket. Current ticket count in the pool: 2
+1732215024562 - Customer 5 purchased a ticket. Current ticket count in the pool: 1
+1732215024562 - Customer 4 purchased a ticket. Current ticket count in the pool: 0
+1732215024564 - Customer 7: Waiting to buy tickets...
+1732215024571 - Vendor 1 added 2 tickets. Total ticket count: 2
+1732215024571 - Customer 7 purchased a ticket. Current ticket count in the pool: 1
+1732215032557 - Vendor 2 added 2 tickets. Total ticket count: 3
+1732215032560 - Customer 3 purchased a ticket. Current ticket count in the pool: 2
+1732215032562 - Customer 6 purchased a ticket. Current ticket count in the pool: 1
+1732215032562 - Customer 2 purchased a ticket. Current ticket count in the pool: 0
+1732215032563 - Customer 1: Waiting to buy tickets...
+1732215032563 - Customer 5: Waiting to buy tickets...
+1732215032564 - Customer 4: Waiting to buy tickets...
+1732215032579 - Vendor 1 added 2 tickets. Total ticket count: 2
+1732215032579 - Customer 1 purchased a ticket. Current ticket count in the pool: 1
+1732215032581 - Customer 4 purchased a ticket. Current ticket count in the pool: 0
+1732215032582 - Customer 5: Waiting to buy tickets...
+1732215032582 - Customer 7: Waiting to buy tickets...
+1732215040562 - Customer 3: Waiting to buy tickets...
+1732215040563 - Customer 2: Waiting to buy tickets...
+1732215040563 - Customer 6: Waiting to buy tickets...
+1732215040573 - Vendor 2 added 2 tickets. Total ticket count: 2
+1732215040574 - Customer 5 purchased a ticket. Current ticket count in the pool: 1
+1732215040575 - Customer 6 purchased a ticket. Current ticket count in the pool: 0
+1732215040576 - Customer 2: Waiting to buy tickets...
+1732215040576 - Customer 3: Waiting to buy tickets...
+1732215040577 - Customer 7: Waiting to buy tickets...
+1732215040580 - Vendor 1 added 2 tickets. Total ticket count: 2
+1732215040581 - Customer 2 purchased a ticket. Current ticket count in the pool: 1
+1732215040581 - Customer 7 purchased a ticket. Current ticket count in the pool: 0
+1732215040582 - Customer 3: Waiting to buy tickets...
+1732215040583 - Customer 1: Waiting to buy tickets...
+1732215040584 - Customer 4: Waiting to buy tickets...
+1732215048582 - Customer 2: Waiting to buy tickets...
+1732215048583 - Vendor 1 added 2 tickets. Total ticket count: 2
+1732215048584 - Customer 3 purchased a ticket. Current ticket count in the pool: 1
+1732215048586 - Vendor 2 added 2 tickets. Total ticket count: 3
+1732215048586 - Customer 5 purchased a ticket. Current ticket count in the pool: 2
+1732215048588 - Customer 6 purchased a ticket. Current ticket count in the pool: 1
+1732215048588 - Customer 2 purchased a ticket. Current ticket count in the pool: 0
+1732215048589 - Customer 4: Waiting to buy tickets...
+1732215048590 - Customer 1: Waiting to buy tickets...
+1732215048590 - Customer 7: Waiting to buy tickets...
+1732215053642 - Stopping all operations...
+1732215057791 - Starting ticket handling operations...
+1732215057792 - Vendor 1 added 2 tickets. Total ticket count: 2
+1732215057793 - Customer 2 purchased a ticket. Current ticket count in the pool: 1
+1732215057793 - Customer 7 purchased a ticket. Current ticket count in the pool: 0
+1732215057794 - Customer 5: Waiting to buy tickets...
+1732215057794 - Customer 6: Waiting to buy tickets...
+1732215057795 - Customer 3: Waiting to buy tickets...
+1732215057796 - Customer 4: Waiting to buy tickets...
+1732215057797 - Vendor 2 added 2 tickets. Total ticket count: 2
+1732215057798 - Customer 1 purchased a ticket. Current ticket count in the pool: 1
+1732215057798 - Customer 4 purchased a ticket. Current ticket count in the pool: 0
+1732215057799 - Customer 3: Waiting to buy tickets...
+1732215057799 - Customer 6: Waiting to buy tickets...
+1732215057800 - Customer 5: Waiting to buy tickets...
+1732215060564 - Stopping all operations...
+1732215063662 - Exiting the system...

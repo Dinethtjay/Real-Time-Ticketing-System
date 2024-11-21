@@ -51,7 +51,7 @@ public class TicketPool {
 
     public void removeTickets(int count) throws InterruptedException {
         synchronized (tickets) {
-            while (tickets.size() < count) {
+            while (tickets.isEmpty()) {
                 try {
                     String message = Thread.currentThread().getName() + ": Waiting to buy tickets...";
                     System.out.println(message);
@@ -63,17 +63,25 @@ public class TicketPool {
                 }
             }
 
-            for (int i = 0; i < count; i++) {
-                String ticket = tickets.remove(0);
-                String message = Thread.currentThread().getName() + " purchased a ticket. Current ticket count in the pool: " + tickets.size();
-                System.out.println(message);
-                tickets.wait();
-                Configuration.logToFile(message);
-            }
+            /*for (int i = 0; i < count; i++) {
+                if (!tickets.isEmpty()) { // Ensure the list is not empty before removing
+                    tickets.remove(0);
+                    String message = Thread.currentThread().getName() + " purchased a ticket. Current ticket count in the pool: " + tickets.size();
+                    System.out.println(message);
+                    Configuration.logToFile(message);
+                } else {
+                    break; // Exit the loop if the list becomes empty
+                }
+            }*/
+            tickets.remove(0);
+            String message = Thread.currentThread().getName() + " purchased a ticket. Current ticket count in the pool: " + tickets.size();
+            System.out.println(message);
+            Configuration.logToFile(message);
 
-            tickets.notifyAll();
+            tickets.notifyAll(); // Notify other threads after the removal
         }
     }
+
 
 
     public int getTicketCount() {
