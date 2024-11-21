@@ -22,5 +22,4 @@ class Vendor implements Runnable {
             Thread.currentThread().interrupt();
         }
     }
-
 }
