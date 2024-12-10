@@ -7,13 +7,12 @@ class Customer implements Runnable {
         this.retrievalRate = retrievalRate;
     }
 
+    //Customer thread behaviour
     @Override
     public void run() {
         try {
             while (!Thread.currentThread().isInterrupted()) {
-//                String message = Thread.currentThread().getName() + " is trying to purchase " + retrievalRate + " tickets.";
-//                System.out.println(message);
-//                Configuration.logToFile(message);
+
                 ticketPool.removeTickets(retrievalRate);
                 Thread.sleep(8000); // Simulate the delay between ticket retrievals
             }

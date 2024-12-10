@@ -6,11 +6,11 @@ public class Configuration {
     private int customerRetrievalRate;
     private int maxTicketCapacity;
 
-    // Log file path (same as the configuration file)
+    //Log file path
     private static final String CONFIG_FILE_PATH = "log.txt";
 
 
-    // Getters and setters for all parameters
+    //Getters and setters for configuration properties
     public int getTotalTickets() {
         return totalTickets;
     }
@@ -43,7 +43,7 @@ public class Configuration {
         this.maxTicketCapacity = maxTicketCapacity;
     }
 
-    // Save configuration to a text file and log the event
+    //Save configuration to a text file
     public void saveToFile(String fileName) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
             writer.write("totalTickets=" + totalTickets + "\n");
@@ -51,7 +51,6 @@ public class Configuration {
             writer.write("customerRetrievalRate=" + customerRetrievalRate + "\n");
             writer.write("maxTicketCapacity=" + maxTicketCapacity + "\n");
 
-            // Log the save action directly to the console
             System.out.println("Configuration saved to file: " + fileName);
             logToFile("Configuration saved to file: " + fileName);
 
@@ -61,7 +60,7 @@ public class Configuration {
         }
     }
 
-    // Load configuration from a text file and log the event
+    //Load configuration from the text file
     public static Configuration loadFromFile(String fileName) {
         Configuration config = new Configuration();
 
@@ -82,13 +81,12 @@ public class Configuration {
                 parameters[index++] = line.split("=")[1].trim();
             }
 
-            // Set the values from the file if present
+            //Set the values from the file if present
             config.setTotalTickets(Integer.parseInt(parameters[0]));
             config.setTicketReleaseRate(Integer.parseInt(parameters[1]));
             config.setCustomerRetrievalRate(Integer.parseInt(parameters[2]));
             config.setMaxTicketCapacity(Integer.parseInt(parameters[3]));
 
-            // Log the successful load
             System.out.println("Configuration loaded successfully from file: " + fileName);
             logToFile("Configuration loaded successfully from file: " + fileName);
 
@@ -100,7 +98,7 @@ public class Configuration {
         return config;
     }
 
-    // Log method to append log entries directly to the configuration file
+    //Log method to append log entries directly to the log file
     static void logToFile(String message) {
         try (BufferedWriter logWriter = new BufferedWriter(new FileWriter(CONFIG_FILE_PATH, true))) {
             String logEntry = System.currentTimeMillis() + " - " + message;

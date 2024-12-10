@@ -17,7 +17,6 @@ public class Main {
             if (loadConfig.equals("yes")) {
                 config = Configuration.loadFromFile(configFile.getName());
                 if (config == null) {
-//                    System.out.println("No previous configuration found. Please configure the system.");
                     config = createConfiguration(scanner, configFile.getName());
                 }
                 break;
@@ -29,7 +28,10 @@ public class Main {
             }
         }
 
+        //holding all the threads including customers and vendors
         List<Thread> threads = new ArrayList<>();
+
+        //Flag to indicate the system in running state or not
         boolean isRunning = false;
 
         try {
@@ -50,17 +52,17 @@ public class Main {
                             Configuration.logToFile(startMessage);
                             threads.clear(); // Clear old threads
 
-                            // Create new Vendor threads
+                            //Create new Vendor threads
                             for (int i = 0; i < numVendors; i++) {
                                 threads.add(new Thread(new Vendor(ticketPool, config.getTicketReleaseRate()), "Vendor " + (i + 1)));
                             }
 
-                            // Create new Customer threads
+                            //Create new Customer threads
                             for (int i = 0; i < numCustomers; i++) {
                                 threads.add(new Thread(new Customer(ticketPool, config.getCustomerRetrievalRate()), "Customer " + (i + 1)));
                             }
 
-                            // Start all threads
+                            //Start all threads
                             threads.forEach(Thread::start);
                             isRunning = true;
                         } else {
@@ -122,6 +124,7 @@ public class Main {
         }
     }
 
+    //Create a new configuration using inputs by user
     private static Configuration createConfiguration(Scanner scanner, String configFileName) {
         Configuration config = new Configuration();
         config.setMaxTicketCapacity(getInput(scanner, "Enter max ticket capacity: "));
@@ -139,6 +142,7 @@ public class Main {
         return config;
     }
 
+    //Validated integer inputs
     private static int getInput(Scanner scanner, String prompt) {
         System.out.print(prompt);
         while (true) {

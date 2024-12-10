@@ -14,16 +14,17 @@ public class TicketPool {
         this.tickets = Collections.synchronizedList(new ArrayList<>());
         this.maxCapacity = maxCapacity;
 
-        // Initialize log file
+        //Initialize log file
         this.logWriter = new BufferedWriter(new FileWriter(logFileName, true)); // Append mode
 
-        // Pre-fill the ticket pool
+        //Pre-fill the ticket pool with total tickets
         for (int i = 0; i < initialTickets; i++) {
             tickets.add("Ticket: " + (i + 1));
         }
         log("Initialized with " + initialTickets + " tickets. Max Capacity: " + maxCapacity);
     }
 
+    //Add ticket to the pool, ensuring it's under the ticket max capacity
     public void addTickets(int count) {
         synchronized (tickets) {
             while (tickets.size() + count > maxCapacity) {
@@ -49,6 +50,7 @@ public class TicketPool {
         }
     }
 
+    //Remove tickets from the pool, ensuring ticket available in the pool
     public void removeTickets(int count) throws InterruptedException {
         synchronized (tickets) {
             while (tickets.isEmpty()) {
@@ -63,32 +65,23 @@ public class TicketPool {
                 }
             }
 
-            /*for (int i = 0; i < count; i++) {
-                if (!tickets.isEmpty()) { // Ensure the list is not empty before removing
-                    tickets.remove(0);
-                    String message = Thread.currentThread().getName() + " purchased a ticket. Current ticket count in the pool: " + tickets.size();
-                    System.out.println(message);
-                    Configuration.logToFile(message);
-                } else {
-                    break; // Exit the loop if the list becomes empty
-                }
-            }*/
             tickets.remove(0);
             String message = Thread.currentThread().getName() + " purchased a ticket. Current ticket count in the pool: " + tickets.size();
             System.out.println(message);
             Configuration.logToFile(message);
 
-            tickets.notifyAll(); // Notify other threads after the removal
+            tickets.notifyAll(); //Notify other threads after the removal
         }
     }
 
-
+    //Get the current ticket count in the pool
     public int getTicketCount() {
         synchronized (tickets) {
             return tickets.size();
         }
     }
 
+    //closing the loggers
     public void closeLog() {
         try {
             logWriter.close();
@@ -97,6 +90,7 @@ public class TicketPool {
         }
     }
 
+    //Write log messages to the log file
     private void log(String message) {
         try {
             logWriter.write(message);
