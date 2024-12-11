@@ -143,16 +143,6 @@ public class Main {
     }
 
     //Validated integer inputs
-    /*private static int getInput(Scanner scanner, String prompt) {
-        System.out.print(prompt);
-        while (true) {
-            try {
-                return Integer.parseInt(scanner.nextLine());
-            } catch (NumberFormatException e) {
-                System.out.println("Invalid input. Please enter a valid number.");
-            }
-        }
-    }*/
     private static int getInput(Scanner scanner, String prompt) {
         System.out.print(prompt);
         while (true) {
