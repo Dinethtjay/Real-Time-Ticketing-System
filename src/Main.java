@@ -143,7 +143,7 @@ public class Main {
     }
 
     //Validated integer inputs
-    private static int getInput(Scanner scanner, String prompt) {
+    /*private static int getInput(Scanner scanner, String prompt) {
         System.out.print(prompt);
         while (true) {
             try {
@@ -152,6 +152,22 @@ public class Main {
                 System.out.println("Invalid input. Please enter a valid number.");
             }
         }
+    }*/
+    private static int getInput(Scanner scanner, String prompt) {
+        System.out.print(prompt);
+        while (true) {
+            try {
+                int value = Integer.parseInt(scanner.nextLine());
+                if (value >= 0) {
+                    return value;
+                } else {
+                    System.out.println("Invalid input. Please enter a non-negative number.");
+                }
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid input. Please enter a valid number.");
+            }
+        }
     }
+
 }
 
